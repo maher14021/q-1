@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meena-Samaj</title>
+<meta charset="UTF-8">
+<meta name="Abhishek Maher IITK" content="Meena-samaj">
+<meta name="study" content="ias study matarial,topper list,ias syllabus">
+<meta name="matrimonial" content="meena samaj matrimonial">
+<meta name="hindi blogs" content="motivational blog">
+<meta name="website of meena samaj" content="meenasamaj.info">
+
+
+<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/half-slider.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body style="background-color:#F4F7D9">
+<nav class="navbar navbar-inverse" style="width:100%; margin-left:0px;">
+  
+    <div class="navbar-header" style="width:100%; margin-left:0px;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="width:100%; margin-left:0px;">
+      <ul class="nav navbar-nav" style="width:100%; float:left;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="ias.html">Upsc</a></li>
+        <li><a href="select.html">Matrimonial</a></li>              
+        <li><a href="database.html">Database</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+
+     <ul class="navbar-right">
+     
+    </ul>
+    
+  </div>
+</nav>
+  
+<!--////////////////////////////////// 
+<div class="abc">
+<img src="images/index.jpg" alt="Jai Minesh" style="width:100%;height:100%;">
+<h4>Welcome To E-Portel Meena-Samaj</h4>
+ Bringing people together
+</div>
+-->
+ 
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="fill" style="background-image:url('images/index1.jpg');"></div>
+            <div class="carousel-caption">
+              <h1>Welcome To Assignment-7 question-1</h1>
+              <h3>A Social Website of Meena-Samaj</h3>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('images/index2.jpg');"></div>
+            <div class="carousel-caption">
+              <h1>Bringng People Together</h1>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('images/index3.jpg');"></div>
+            <div class="carousel-caption">
+              <h1>We don't need a reason to help people</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
+    </div>
+
+    
+
+<!--
+<div class="footr">
+  <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="ias.html">Upsc</a></li>
+        <li><a href="select.html">Matrimonial</a></li>              
+        <li><a href="database.html">Database</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li>@Copyright Reserved</li>
+        <li>Contect No-8960742740</li>
+        <li>Email:meenasamajinfo@gmail.com</li>
+
+      </ul>
+</div>
+-->
+
+<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,258 @@
+.ias{
+	border-style: solid;
+	border-width: 1px;
+	width: 70%;
+	height: ;
+	margin-left: 15%;
+	margin-top: 5%;
+	border-radius: 10px;	
+}
+
+.ias_heading{
+	border-style: solid;
+	border-width: 1px;
+	background-color: #800000;
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 10px;
+	height: 40px;
+	padding-top: 4px;
+	margin-bottom: 70px;
+}
+
+.ias_tabs{
+	border-style: solid;
+	border-width: 0px;
+	width: 100%;
+	height: 20px;
+	margin-top: 0%;
+	margin-left: %;
+}
+
+.ias_tab{
+	border-style: solid;
+	border-width: 0px;
+	width: 13%;
+	margin-right: 15%;
+	height: 100px;
+	margin-top: 20px;
+	text-align: bottom;
+	text-align: center;
+	padding-top: 5px;
+	float: right;
+}
+
+.ias_tab_selected{
+	
+	background-color: ;
+	width: 13%;
+	margin-right: 15%;
+	height: 100px;
+	margin-top: 20px;
+	text-align: bottom;
+	text-align: center;
+	padding-top: 5px;
+	float: right;
+}
+.ias_tab a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}
+
+.ias_tab_selected a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}	
+.syllabus{
+	border-style: solid;
+	border-width: 0px;
+	width: 100%;
+	margin-left: 0%;
+	height: 100%;
+	margin-top: 15%;
+	margin-bottom: 0px;
+}
+
+.syllabus p{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 0px;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.syllabus ul li{
+	margin-left: 4%;
+	padding-right: 5%;
+	padding-top: 0px;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.syllabus ol li{
+	margin-left: 4%;
+	padding-right: 5%;
+	padding-top: 0px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.syllabus h2{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+.syllabus h3{
+	font-weight: bold;
+	color: blue;
+	margin-left: 5%;
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 25px;
+
+}
+
+.syllabus h4{
+	font-weight: bold;
+	color: blue;
+	margin-left: 5%;
+	text-decoration: underline;
+	display: inline;
+	
+}
+
+.syllabus h5{
+	font-weight: bold;
+	color: black;
+	margin-left: 5%;
+	text-decoration: ;
+	display: inline;
+	
+}
+
+.syllabus h6{
+	font-size: 18px;
+	font-weight: ;
+	color: red;
+	margin-left: 5%;
+	text-decoration: ;
+	display: inline;
+	
+}
+
+.syllabus table{
+	margin-left: 5%;
+	
+	margin-right: 5%;
+}
+.syllabus table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+
+}
+ th, td {
+    padding: 5px;
+    text-align: left;
+}
+th {
+    text-align: left;
+}
+
+.red h3{
+	color: red;
+}
+.books{
+	border-style: solid;
+	border-width: 0px;
+	width: 100%;
+	height: 100%;
+	margin-left: 0%;
+	margin-top: 18%;
+	border-radius: 10px;
+}
+
+.ias_toppers{
+	border-style: solid;
+	border-width: 0px;
+	width: 100%;
+	margin-left: 0%;
+	height: ;
+	margin-top: 6%;
+	margin-bottom: 50px;
+	line-height: 55px;
+}
+
+.ias_toppers p{
+	padding-left: 33%;
+	font-size: 20px;
+}
+
+.material{
+	border-style: solid;
+	border-width: 2px;
+	width: 100%;
+	margin-left: 0%;
+	height:px ;
+	margin-top: 8%;
+	margin-bottom: 50px;
+}
+
+.material_heading table tr td {
+    font-style: bold;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+	height: 25px;
+	text-align: center;
+}
+
+
+.source{
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 5%;
+	color: gray;
+}
+
+
+@media only screen and (max-width: 900px) {
+ 
+ .ias{
+ 	width: 100%;
+ 	margin-left: 0%;
+ }
+
+.syllabus{
+	margin-top: 150px;
+}
+.ias_tabs{
+	margin-bottom: 150px;
+}
+
+.ias_toppers p{
+	width: 100%;
+	margin-left: 0%;
+		padding-left: 5%;
+		font-size: 15px;
+
+}
+
+}

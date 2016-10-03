@@ -1,0 +1,200 @@
+.welcome{
+	width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    text-align: justify;
+	font-size: 20px;
+width: 90%;
+	margin-left:5% ;
+	margin-top: 20px;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+
+}
+.welcome:after{
+content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+
+}
+.welcome h1{
+	text-align: center;
+}
+
+
+.welcome p{
+	text-indent: 45px;
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.contact_info{
+width: 90%;
+margin-left: 5%;
+margin-top: 50px;
+background-color: white;
+font-size: 25px;
+text-align: center;
+border-radius: 5px;
+background-color: blue;
+color: white;
+text-align: ;
+margin-bottom: 100px;
+
+}
+
+.find_match{
+	width: 90%;
+    margin-left: 5%;
+    height: px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white	;
+    padding-top: 30px;
+
+}
+.find_match h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.find_match img{
+	width: 15%;
+	height: 200px;
+	margin-left: 22.5%;
+	margin-bottom: 150px;
+	margin-top: 40px;
+
+}
+
+.find_match p{
+	margin-top: 30px;
+}
+
+.find_match img{
+	    border-radius: 25px;
+
+}
+
+.heading{
+	text-align: center;
+}
+
+.mar img{
+	
+}
+
+.click{
+	width: 90%;
+	margin-left: 5%;
+	height: 100px;
+    margin-bottom: 100px;
+
+}
+
+.click img{
+
+	width: 100%;
+	height: 100px;
+	margin-bottom:;
+
+}
+.register{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 25px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+
+}
+.forum{
+width: 90%;
+margin-left: 5%;
+background-color:;
+}
+
+.problem{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 25px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+
+.welcome img{
+	margin-left: 5%;
+	float:right; ;
+	width: 90%;
+	margin-right: 5%;
+	margin-bottom: 30px;
+
+}
+
+.welcome p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.find_match img{
+margin-left: 20%;
+	width: 60%;
+	margin-right: 20%;
+	margin-bottom: 30px;
+	height: 200px;
+
+}
+
+.mar{
+	width: 100%;
+	margin-left: 0%;
+	font-size: 20px;
+
+}
+
+.heading{
+	width: 100%;
+	margin-left: 0%;
+	margin-bottom: 50px;
+}
+.heading h1{
+	font-size: 24px;
+}
+
+.mar p{
+	text-align: justify;
+	line-height: 40px;
+	margin-left:8%;
+	width: 84%;
+
+}
+.mar img{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+}
+
+
+
+}

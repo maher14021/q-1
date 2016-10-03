@@ -1,0 +1,287 @@
+body{
+background-color: #lightblue;
+}
+
+.nav li{
+	width: 12%;
+     color:white;
+}
+
+.nav ul li a{
+	color: white;
+
+}
+
+
+.nav{
+	float: left;
+          color:white;
+      margin-left:10%;
+    color:white;
+}
+
+
+.abc{
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   height: 610px;
+   text-align: center;
+}
+
+#myCarousel{
+	height: 500px;
+	width: 90%;
+	margin-top: 30px;
+	margin-left: 5%;
+}
+
+
+
+
+.footr{
+	border-style: solid;
+	width: 100%;
+	bottom: 0;
+	display: inline;
+	background-color: green;
+	text-align: center;
+}
+
+.footr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.footr li {
+    float: left;
+    color: white;
+    margin-left: 5%;
+}
+
+.footr li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
+
+.meena{
+	text-align: justify;
+	font-size: 20px;
+    width: 90%;
+	margin-left:5% ;
+	margin-top: 20px;
+	margin-bottom: 100px;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+.meena:after{
+
+	content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0px;
+}
+
+
+.meena p{
+	 text-indent: 50px;
+	 line-height: 40px;
+}
+.imp_head{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 50px;
+
+}
+.important{
+	width: 90%;
+	margin-left: 5%;
+	height: 350px;
+	margin-top: px;
+	margin-bottom: 100px;
+}
+
+
+
+
+.imp1{
+	width: 49%;
+	margin-left: %;
+	margin-top: 20px;
+   float: left;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+.imp1:after{
+
+	 content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+.imp2{
+
+	width: 49%;
+	margin-left: %;
+	margin-top: 20px;
+   float: right;
+   	margin-right: %;
+    
+position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;}
+
+.imp2:after{
+
+	 content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+.imp1  a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+.imp1 a:hover{
+	text-decoration: none;
+}
+
+.imp1 p{
+	margin-top: 20px;
+	font-size: 16px;
+	margin-left: 2%;
+
+}
+.imp2  a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+.imp2 a:hover{
+	text-decoration: none;
+}
+
+.imp2 p{
+	margin-top: 20px;
+	font-size: 16px;
+	margin-left: 2%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: green;
+    }
+
+.nav li{
+	width: 100%;
+}
+
+     #myCarousel{
+     	height: 200px;
+     }
+     .carousel-caption h1{
+  font-size:18px; 
+     }
+
+     .carousel-caption h3{
+font-size: 15px;
+
+     }
+    
+   .imp1{
+	width: 100%;
+	margin-left: %;
+	height: px;
+	margin-top: 20px;
+   float: left;
+     position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+    font-size: 13px;
+}
+
+.imp1_head h1{
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.imp1 p{
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+.imp2{
+	width: 100%;
+	margin-left: %;
+	height: px;
+	margin-top: 40px;
+   float: left;
+     position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+    font-size: 13px;
+}
+
+.imp2_head h1{
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.imp2 p{
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+.copyright{
+	margin-top: 150px;
+}
+}

@@ -1,0 +1,164 @@
+.about{
+	text-align: justify;
+	font-size: 20px;
+width: 90%;
+	margin-left:5% ;
+	margin-top: 20px;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+    margin-bottom: 100px;
+}
+
+.about:after{
+	content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 100px;
+}
+.about_heading{
+	background-color: #800000;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	height: 40px;
+	padding-top: 4px;
+	margin-bottom: 70px;
+}
+
+.our_team{
+	background-color: #339980;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	width: 30%;
+	font-size: 20px;
+	height: 40px;
+	padding-top: 4px;
+	margin-left: 35%;
+	margin-top: 60px;
+	margin-bottom: 50px;
+
+}
+.pics{
+	width: 80%;
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-bottom: ;
+}
+
+
+.maher{
+	width: 30%;
+    margin-top: ;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    background-color: white;
+    text-align: center;
+    color: gray;
+}
+
+
+.image{
+	width: 98%;
+	height: 67%;
+	background-color: green;
+	margin-left: 1.5%;
+	margin-top:1.5%;
+	margin-right:1.5%;
+}
+
+h3{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+.visit{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	background-color: #e6e6e6;
+	width: 80%;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 10%;
+    text-align: center;
+	color: white;
+	padding-top: 2px;
+	float: ;
+	padding-bottom: 20px;
+
+}
+
+.visit a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+		padding-bottom: 20px;
+
+}
+.visit:hover{
+	background-color: #339980;
+	text-decoration: ;
+	color: white;
+}
+
+.visit a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+.about p{
+	font-size: 17px;
+	width: 80%;
+	margin-left: 10%;
+	
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.about{
+	width: 100%;
+	margin-left: 0%;
+}
+.maher{
+
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+.vishram{
+width: 90%;
+	margin-left: 5%;
+}
+.our_team{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+}
+
+.visit{
+	width:98%;
+	margin-left: 1%;
+}
+}
+
